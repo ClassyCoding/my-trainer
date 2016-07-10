@@ -2,3 +2,4 @@
 %project=my-trainer
 
 public/extensions/pgcrypto 2016-07-10T21:46:41Z Andrew Rademacher <andrewrademacher@gmail.com> # Added pgcrypto extension.
+trainer/schema 2016-07-10T21:59:40Z Andrew Rademacher <andrewrademacher@gmail.com> # Added the mytraner schema.
