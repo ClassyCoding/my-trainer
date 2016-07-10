@@ -1,3 +1,4 @@
 %syntax-version=1.0.0
 %project=my-trainer
 
+public/extensions/pgcrypto 2016-07-10T21:46:41Z Andrew Rademacher <andrewrademacher@gmail.com> # Added pgcrypto extension.
