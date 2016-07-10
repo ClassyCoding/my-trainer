@@ -2,6 +2,8 @@
 
 BEGIN;
 
--- XXX Add DDLs here.
+SET search_path TO trainer, public;
+
+DROP TABLE exercise;
 
 COMMIT;
