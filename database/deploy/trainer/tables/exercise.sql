@@ -8,10 +8,14 @@ CREATE TABLE exercise(
     id              uuid       NOT NULL DEFAULT gen_random_uuid(),
     display_name    text       NOT NULL,
     slot_name       text       NOT NULL,
+    unit            uuid       NOT NULL,
 
     PRIMARY KEY (id),
     UNIQUE (display_name),
-    UNIQUE (slot_name)
+    UNIQUE (slot_name),
+
+    FOREIGN KEY (unit) REFERENCES unit(id)
+        ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
 COMMIT;
