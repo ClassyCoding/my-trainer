@@ -1,0 +1,21 @@
+{
+	"intents": [
+		{
+			"intent": "LogRepitition",
+			"slots": [
+			{
+				"name": "Repitition",
+				"type": "AMAZON.NUMBER"
+			},
+			{
+				"name": "Exercise",
+				"type": "LIST_OF_EXCERCISES"
+			},
+			{
+				"name": "Weight",
+				"type": "AMAZON.NUMBER"
+			}
+			]
+		}
+	]
+}

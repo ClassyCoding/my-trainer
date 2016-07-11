@@ -1,0 +1,19 @@
+LogRepitition that I did {Repetition} {Exercise}
+LogRepitition I did {Repetition} {Exercise}
+LogRepitition that I completed {Repetition} {Exercise}
+LogRepitition I completed {Repetition} {Exercise}
+LogRepitition I finished {Repetition} {Exercise}
+LogRepitition that I finished {Repetition} {Exercise}
+LogRepitition to log {Repetition} {Exercise}
+LogRepitition to record {Repetition} {Exercise}
+LogRepitition to save {Repetition} {Exercise}
+
+LogRepitition that I did {Repetition} {Exercise} at {Weight} pounds
+LogRepitition I did {Repetition} {Exercise} at {Weight} pounds
+LogRepitition that I completed {Repetition} {Exercise} at {Weight} pounds
+LogRepitition I completed {Repetition} {Exercise} at {Weight} pounds
+LogRepitition I finished {Repetition} {Exercise} at {Weight} pounds
+LogRepitition that I finished {Repetition} {Exercise} at {Weight} pounds
+LogRepitition to log {Repetition} {Exercise} at {Weight} pounds
+LogRepitition to record {Repetition} {Exercise} at {Weight} pounds
+LogRepitition to save {Repetition} {Exercise} at {Weight} pounds
