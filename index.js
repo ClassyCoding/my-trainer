@@ -3,7 +3,7 @@ var VERSION = "1.0";
 exports.handler = function (event, context) {
 	try {
 		console.log("event.session.application.applicationId=" + event.session.application.applicationId);
-		
+
 		// Prevent other people from using this skill
 		if(event.session.application.applicationId !== process.env.MY_TRAINER_APP_ID) {
 			context.fail("Invalid Application ID");
@@ -19,7 +19,7 @@ exports.handler = function (event, context) {
 			console.log("Launch Request requestId=" + event.request.requestId + " sessionId" = event.session.sessionId);
 		} else if (event.request.type === "IntentRequest") {
 			console.log("Intent Request requestId=" + event.request.requestId + " sessionId" = event.session.sessionId);
-			
+
 
 			intentDispatcher(event.request, event.session, function(sessionAttributes, speechletResponse) {
 				context.succeed(buildResponse(sessionAttributes, speechletResponse));
@@ -44,11 +44,24 @@ function intentDispatcher(intentRequest, session, callback) {
 	}
 }
 
-// LogRepitition Intent Handler
+/*
+*  LogRepitition Intent Handler
+*
+*  This intent handles when a user wants to log a repetition
+*  from their workout.
+*/
 function handleLogRepetition(intent, session, callback) {
 	var outputText = "Logged Data";
 
+	console.log("Intent: " + intent.name);
+
+	for(var i=0; i<intent.slots.length; i++) {
+		console.log("Slot: " + intent.slots[i].name);
+		console.log("Value: " + intent.slots[i].value);
+	}
+
 	// Store the data
+
 	// Build a response
 
 	// Send the response
